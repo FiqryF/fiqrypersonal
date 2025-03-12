@@ -282,3 +282,277 @@ header {
     transform: translateY(0);
     visibility: visible;
 }
+
+
+#experience {
+    font-family: 'Lexend', sans-serif;
+}
+
+.experience-title {
+    font-size: 2.5rem; /* Sesuaikan ukuran */
+    font-weight: 700;  /* Bold */
+    color: #b91c1c; /* Warna merah sesuai sebelumnya */
+    text-align: center;
+}
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title Style */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b91c1c;
+    border-bottom: 2px solid #b91c1c;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  /* Work Experience Box */
+  .experience-box {
+    background: white;
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .experience-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  }
+  
+  /* Image Styling */
+  .image-container {
+    width: 100%;
+    max-width: 320px;
+    height: 180px;
+    background: #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  /* Visit Button */
+  .visit-button {
+    background: #b91c1c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .visit-button:hover {
+    background: #7f1d1d;
+  }
+  
+  /* Organizational Experience Grid */
+  .org-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .org-box {
+    background: white;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .org-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  }
+  
+  .desc-text {
+    margin-top: 10px;
+    color: #4b5563;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 640px) {
+    .org-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .experience-box {
+      flex-direction: row;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .experience-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .org-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Work Experience - Gambar Full */
+.work-experience .image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.work-experience .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.experience-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Beri jarak antara gambar & teks */
+}
+
+.image-container {
+    width: 150px; /* Perbesar ukuran gambar */
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Pastikan gambar tidak terpotong */
+}
+
+.description {
+    flex: 1; /* Supaya teks mengisi sisa ruang */
+    text-align: justify;
+}
+
+.visit-button {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.work-experience {
+    margin-bottom: 50px; /* Tambahkan jarak bawah */
+}
+
+.org-container {
+    display: flex;
+    flex-wrap: wrap; /* Supaya turun di layar kecil */
+    justify-content: center; /* Tengah */
+    gap: 20px; /* Jarak antar box */
+}
+
+.org-box {
+    width: 30%; /* 3 kotak dalam 1 baris */
+    min-width: 250px; /* Supaya tetap rapi di layar kecil */
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.org-box {
+    width: 100%;
+    max-width: 300px; /* Sesuaikan dengan kebutuhan */
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Menjaga agar elemen tetap tersusun ke bawah */
+    justify-content: space-between;
+    overflow: hidden; /* Mencegah deskripsi keluar */
+}
+
+.image-container {
+    width: 100%;
+    height: 200px; /* Sesuaikan dengan kebutuhan */
+    overflow: hidden; /* Pastikan gambar tidak keluar */
+    border-radius: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pastikan gambar full */
+}
+
+.desc-container {
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.desc-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Menambahkan margin bawah pada judul dan memperbesar font size */
+.experience-title {
+    font-size: 42px !important; /* Ukuran font yang lebih besar dengan !important */
+    font-weight: bold;
+    margin-bottom: 30px; /* Menambah jarak antara judul dan box */
+    text-align: center; /* Agar judul berada di tengah */
+    color: #A31D1D; /* Menambahkan warna teks jika diinginkan */
+}
+
+
+
+/* Menambahkan margin bawah pada judul */
+.experience-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px; /* Menambah jarak antara judul dan box */
+    text-align: center; /* Agar judul berada di tengah */
+}
+
+/* Kontainer untuk proyek */
+.project-container {
+    display: flex;
+    justify-content: space-between; /* Menjaga proyek sejajar */
+    gap: 20px; /* Jarak antar proyek */
+    flex-wrap: wrap; /* Agar tetap responsif pada layar kecil */
+}
