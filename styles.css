@@ -61,3 +61,62 @@ h1 {
 .about-btn:hover {
     background: #871717;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.mindmap-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #A31D1D;
+    margin-bottom: 40px;
+}
+
+.mindmap-container {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+.mindmap-line {
+    position: absolute;
+    width: 5px;
+    background: #A31D1D;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mindmap-item {
+    position: relative;
+    width: 50%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.mindmap-box {
+    background: white;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid #A31D1D;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 100%;
+    max-width: 340px;
+}
