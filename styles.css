@@ -120,3 +120,165 @@ body {
     width: 100%;
     max-width: 340px;
 }
+
+/* Kiri */
+.left {
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left .mindmap-box {
+    margin-right: 30px;
+}
+
+/* Kanan */
+.right {
+    left: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right .mindmap-box {
+    margin-left: 30px;
+}
+
+/* Efek Animasi */
+.fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animasi Teks */
+.mindmap-box h3, .mindmap-box p {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.6s ease-in-out;
+}
+
+.fade.visible .mindmap-box h3,
+.fade.visible .mindmap-box p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .mindmap-line {
+        left: 20px;
+    }
+
+    .mindmap-item {
+        width: 100%;
+        padding-left: 50px;
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .left, .right {
+        left: 0;
+    }
+
+    .right .mindmap-box, .left .mindmap-box {
+        margin: 10px 0;
+        max-width: 100%;
+    }
+}
+
+.education-title {
+    font-family: 'Lexend', sans-serif;
+    font-size: 2.5rem; /* Ukuran lebih kecil agar lebih proporsional */
+    font-weight: bold;
+    color: #A31D1D; /* Warna merah */
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlide 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.visit-site {
+    background-color: #A31D1D;
+    color: white;
+    border: 2px solid #A31D1D;
+}
+
+.visit-site:hover {
+    background-color: white;
+    color: #A31D1D;
+}
+
+.more-info {
+    background-color: white;
+    color: #A31D1D;
+    border: 2px solid #A31D1D;
+}
+
+.more-info:hover {
+    background-color: #A31D1D;
+    color: white;
+}
+
+/* Header Sticky */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efek ketika scroll */
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Animasi Mobile Menu */
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+}
+
+#mobile-menu.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
