@@ -1094,3 +1094,53 @@ h3 {
     gap: 10px;
     flex-wrap: wrap;
 }
+
+.locked-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid black;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+    transition: 0.3s;
+}
+
+.locked-box img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+/* Hover Effect */
+.skill-box:hover, .locked-box:hover {
+    transform: scale(1.05);
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Section Container */
+.skills-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Unlocked & Locked Skills Container */
+.skills-container, .locked-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+}
