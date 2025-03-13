@@ -854,3 +854,70 @@ body {
         font-size: 14px;
     }
 }
+
+/* Container Proyek */
+.latest-project-item {
+    width: 48%; /* Agar tetap sejajar */
+    background: #fff;
+    padding: 10px; /* Kurangi padding agar lebih ringkas */
+    border-radius: 10px;
+    border: 2px solid #A31D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/* Container Gambar */
+.project-image-container {
+    width: 100%; /* Pastikan gambar full lebar */
+    height: 250px; /* Turunkan tinggi agar lebih landscape */
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid #A31D1D; /* Warna bingkai */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gambar */
+.project-image-container img {
+    width: 100%; /* Lebarkan gambar */
+    height: auto; /* Biarkan tinggi menyesuaikan */
+    object-fit: cover; /* Pastikan gambar tetap proporsional */
+}
+
+
+/* Konten Box */
+.project-box {
+    text-align: center;
+    padding: 5px 0; /* Kurangi padding supaya lebih pendek */
+}
+
+/* Judul & Deskripsi */
+.project-box h3 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.project-box p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* Tombol */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 3px; /* Lebih dekat */
+}
+
+.button-group a {
+    padding: 6px 10px; /* Kurangi padding tombol */
+    font-size: 12px;
+    background-color: #A31D1D;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
