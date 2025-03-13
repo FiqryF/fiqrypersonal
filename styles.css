@@ -1521,3 +1521,56 @@ body {
 .close-btn:hover {
     color: #8B0000;
 }
+
+.popup-content h2 {
+    font-weight: bold;
+}
+
+.popup-content p {
+    text-align: justify;
+}
+
+/* Tombol About Me */
+.about-btn {
+    display: inline-block;
+    background: #A31D1D;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-btn:hover {
+    background: #871717;
+}
+
+/* Style umum */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tombol download */
+.btn-download {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-download:hover {
+    background-color: darkred;
+}
