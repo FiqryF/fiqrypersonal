@@ -556,3 +556,21 @@ body {
     gap: 20px; /* Jarak antar proyek */
     flex-wrap: wrap; /* Agar tetap responsif pada layar kecil */
 }
+
+/* Box untuk setiap proyek */
+.latest-project-item {
+    width: 48%; /* Lebar 48% dari kontainer untuk dua item */
+    background-color: #f9f9f9;
+    border: 2px solid #A31D1D;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+/* Efek hover pada box */
+.latest-project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
