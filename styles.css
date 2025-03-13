@@ -1377,3 +1377,66 @@ body {
     align-items: center;
     z-index: 1000;
 }
+
+.floating-button {
+    width: 55px;
+    height: 55px;
+    background-color: #8B0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floating-button:hover {
+    background-color: #a00000;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button.open {
+    background-color: #600000;
+}
+
+.floating-button .icon {
+    transition: transform 0.3s ease;
+}
+
+.floating-button.open .icon {
+    transform: rotate(45deg);
+    content: "×";
+}
+
+.options {
+    position: relative;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.options.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.option {
+    text-decoration: none;
+    background: white;
+    color: #333;
+    padding: 10px 18px;
+    border: 2px solid black;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    position: absolute;
+}
