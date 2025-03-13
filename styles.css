@@ -1214,3 +1214,75 @@ h2, h3 {
 h1::after, h3::after {
     content: none !important;
 }
+
+/* Locked Skills Box - Pastikan kontennya di tengah */
+.locked-box {
+    display: flex;
+    align-items: center;  /* Pusatkan secara vertikal */
+    justify-content: center; /* Pusatkan secara horizontal */
+    text-align: center; /* Pastikan teks di tengah */
+    width: 250px; /* Sesuaikan ukuran */
+    height: 50px; /* Sesuaikan tinggi */
+}
+
+/* Ikon dan teks dalam locked-box */
+.locked-box img {
+    margin-right: 8px; /* Beri sedikit jarak antara ikon dan teks */
+}
+
+/* Mengubah font untuk seluruh halaman */
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+/* Memperbesar ukuran teks SKILLS */
+.title {
+    font-size: 42px; /* Sesuaikan ukuran */
+    font-weight: bold;
+}
+
+@keyframes shine {
+    0% {
+        background: linear-gradient(90deg, darkred 0%, red 50%, darkred 100%);
+        background-size: 200% 100%;
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.progress {
+    height: 100%;
+    width: 20%;
+    background: darkred;
+    animation: shine 2s infinite linear;
+}
+
+@keyframes borderShine {
+    0% {
+        box-shadow: 0 0 2px rgba(255, 0, 0, 0.2);
+        border-color: rgba(255, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+        border-color: rgba(255, 0, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 2px rgba(255, 0, 0, 0.2);
+        border-color: rgba(255, 0, 0, 0.5);
+    }
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 2px solid rgba(255, 0, 0, 0.5); /* Warna merah lebih lembut */
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    animation: borderShine 2s infinite alternate ease-in-out;
+}
