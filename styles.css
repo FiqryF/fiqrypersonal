@@ -1708,11 +1708,10 @@ body {
     transform: translateY(-2px); /* Efek naik sedikit saat hover */
 }
 
-/* ======== RESPONSIVE ======== */
-@media (max-width: 768px) { /* Mobile */
+@media (max-width: 768px) { 
     .scroll-top-btn {
-        bottom: 95px; /* Naik lebih tinggi supaya nggak ketimpa */
-        right: 26px; /* Biar lebih rapi di mobile */
+        bottom: 95px; 
+        right: 26px; 
         width: 40px;
         height: 40px;
         font-size: 16px;
