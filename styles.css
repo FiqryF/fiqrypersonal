@@ -1682,3 +1682,28 @@ body {
     transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s;
     z-index: 1000; /* Pastikan lebih tinggi dari elemen lain */
 }
+
+.scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.scroll-top-btn.hide {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s;
+}
+
+.scroll-top-btn:hover {
+    background-color: #8B0000; /* Warna lebih gelap saat hover */
+    transform: scale(1.1); /* Efek membesar */
+}
+
+.scroll-top-btn i {
+    transition: transform 0.3s;
+}
+
+.scroll-top-btn:hover i {
+    transform: translateY(-2px); /* Efek naik sedikit saat hover */
+}
