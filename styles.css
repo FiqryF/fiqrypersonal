@@ -1339,13 +1339,12 @@ body {
     padding: 10px;
     border-radius: 8px;
     width: 250px;
-    justify-content: center; /* Agar teks di tengah */
+    justify-content: center; 
     position: relative;
     overflow: hidden;
-    border: 3px solid transparent; /* Supaya tetap ada border */
+    border: 3px solid transparent;
 }
 
-/* Efek Border Berkilau Abu-Abu */
 .locked-box::before {
     content: "";
     position: absolute;
