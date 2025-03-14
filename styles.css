@@ -1185,7 +1185,7 @@ body {
 
 .progress {
     height: 100%;
-    width: 20%; /* Sesuai dengan persentase */
+    width: 20%; 
     background: darkred;
     transition: width 1.5s ease-in-out;
 }
@@ -1194,23 +1194,19 @@ body {
     font-size: 12px;
 }
 
-/* Hover Effect */
 .skill-box:hover, .locked-box:hover {
     transform: scale(1.05);
 }
 
-/* Pastikan tidak ada garis bawah */
 h2, h3 {
     border-bottom: none !important;
     text-decoration: none !important;
 }
 
-/* Jika garis bawah berasal dari elemen tambahan seperti <hr>, sembunyikan */
 .skills-section hr {
     display: none !important;
 }
 
-/* Jika garis bawah muncul dari pseudo-element (::after atau ::before), hapus */
 h1::after, h3::after {
     content: none !important;
 }
