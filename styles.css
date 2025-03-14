@@ -797,8 +797,8 @@ body {
 
 .button-group {
     display: flex;
-    justify-content: center; /* Menyusun tombol agar lebih rapat */
-    gap: 10px; /* Mengatur jarak antar tombol */
+    justify-content: center; 
+    gap: 10px; 
 }
 
 .button-group a {
@@ -814,27 +814,22 @@ body {
     background-color: #851616;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media screen and (max-width: 768px) {
-    /* Project container to stack items vertically */
     .project-container {
         flex-direction: column;
         align-items: center;
     }
 
-    /* Make each project item take full width */
     .latest-project-item {
         width: 90%;
         margin-bottom: 20px;
     }
 
-    /* Adjust the image container to maintain aspect ratio */
     .project-image-container {
-        padding-top: 56.25%; /* Aspect ratio of 16:9 */
+        padding-top: 56.25%; 
     }
 }
 
-/* Additional Media Query for smaller devices (Mobile Portrait) */
 @media screen and (max-width: 480px) {
     .experience-title {
         font-size: 28px;
@@ -855,11 +850,10 @@ body {
     }
 }
 
-/* Container Proyek */
 .latest-project-item {
-    width: 48%; /* Agar tetap sejajar */
+    width: 48%; 
     background: #fff;
-    padding: 10px; /* Kurangi padding agar lebih ringkas */
+    padding: 10px; 
     border-radius: 10px;
     border: 2px solid #A31D1D;
     display: flex;
