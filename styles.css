@@ -1448,27 +1448,24 @@ body {
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Posisi menu About */
 .about {
     bottom: 60px;
     right: 10px;
 }
 
-/* Posisi menu Contact */
 .contact {
     bottom: 10px;
     right: 70px;
 }
 
-/* Geser opsi lebih dekat ke tombol floating */
 .about {
     bottom: 27px;
-    right: 35px; /* Sebelumnya 5px, geser lebih ke kanan */
+    right: 35px; 
 }
 
 .contact {
     bottom: -24px;
-    right: 35px; /* Sebelumnya 45px, geser lebih ke kanan */
+    right: 35px; 
 }
 
 @media (max-width: 768px) {
