@@ -530,36 +530,30 @@ body {
     font-weight: bold;
 }
 
-/* Menambahkan margin bawah pada judul dan memperbesar font size */
 .experience-title {
-    font-size: 42px !important; /* Ukuran font yang lebih besar dengan !important */
+    font-size: 42px !important; 
     font-weight: bold;
-    margin-bottom: 30px; /* Menambah jarak antara judul dan box */
-    text-align: center; /* Agar judul berada di tengah */
-    color: #A31D1D; /* Menambahkan warna teks jika diinginkan */
+    margin-bottom: 30px; 
+    text-align: center; 
+    color: #A31D1D; 
 }
 
-
-
-/* Menambahkan margin bawah pada judul */
 .experience-title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px; /* Menambah jarak antara judul dan box */
-    text-align: center; /* Agar judul berada di tengah */
+    margin-bottom: 30px; 
+    text-align: center; 
 }
 
-/* Kontainer untuk proyek */
 .project-container {
     display: flex;
-    justify-content: space-between; /* Menjaga proyek sejajar */
-    gap: 20px; /* Jarak antar proyek */
-    flex-wrap: wrap; /* Agar tetap responsif pada layar kecil */
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
 }
 
-/* Box untuk setiap proyek */
 .latest-project-item {
-    width: 48%; /* Lebar 48% dari kontainer untuk dua item */
+    width: 48%;
     background-color: #f9f9f9;
     border: 2px solid #A31D1D;
     border-radius: 12px;
@@ -569,19 +563,17 @@ body {
     margin-bottom: 20px;
 }
 
-/* Efek hover pada box */
 .latest-project-item:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Gambar proyek (landscape) */
 .project-image-container {
     position: relative;
-    width: 100%; /* Gambar memenuhi lebar kontainer */
+    width: 100%; 
     height: 0;
-    padding-top: 56.25%; /* Rasio 16:9 untuk landscape */
-    overflow: hidden; /* Agar gambar tidak keluar dari kontainer */
+    padding-top: 56.25%; 
+    overflow: hidden; 
     margin-bottom: 15px;
 }
 
