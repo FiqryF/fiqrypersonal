@@ -922,11 +922,10 @@ body {
     text-decoration: none;
 }
 
-/* Responsif untuk Mobile */
 @media (max-width: 768px) {
     .latest-project-item {
-        width: 100%; /* Ubah ke full width agar lebih fleksibel */
-        padding: 8px; /* Sedikit kurangi padding */
+        width: 100%; 
+        padding: 8px; 
     }
 
     .project-image-container {
