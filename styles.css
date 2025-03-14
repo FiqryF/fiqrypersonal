@@ -1126,14 +1126,12 @@ body {
     padding: 20px;
 }
 
-/* Section Container */
 .skills-section {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
 }
 
-/* Unlocked & Locked Skills Container */
 .skills-container, .locked-container {
     display: flex;
     flex-wrap: wrap;
@@ -1148,8 +1146,8 @@ body {
 .skill-box {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Memisahkan elemen */
-    gap: 10px; /* Menambahkan jarak antar elemen */
+    justify-content: space-between;
+    gap: 10px; 
     background: white;
     border: 2px solid black;
     padding: 10px;
@@ -1158,8 +1156,6 @@ body {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Title Inside Each Box */
 .box-title {
     position: absolute;
     top: 5px;
@@ -1173,7 +1169,6 @@ body {
     border: 1px solid darkred;
 }
 
-/* Progress Bar */
 .progress-bar {
     width: 80px;
     height: 12px;
