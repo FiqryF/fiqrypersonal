@@ -591,32 +591,28 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Memastikan gambar tetap landscape */
+    object-fit: cover;
     border-radius: 8px;
 }
 
-/* Judul proyek */
 .project-box h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-/* Deskripsi proyek */
 .project-box p {
     font-size: 14px;
     margin-bottom: 10px;
     color: #555;
 }
 
-/* Tombol untuk melihat lebih lanjut */
 .button-group {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-/* Tombol */
 .btn {
     display: inline-block;
     padding: 8px 18px;
@@ -646,28 +642,24 @@ body {
     background-color: #8c1414;
 }
 
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Project Section */
 #project {
     background-color: #f7fafc;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-/* Title Styles */
 .experience-title {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
 }
 
-/* Container for Projects */
 .project-container {
     display: flex;
     justify-content: space-between;
@@ -676,7 +668,6 @@ body {
     padding: 0 15px;
 }
 
-/* Each Project Item */
 .latest-project-item {
     background-color: white;
     border: 2px solid #A31D1D;
@@ -689,11 +680,10 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Image Container */
 .project-image-container {
     width: 100%;
     height: 0;
-    padding-top: 56.25%; /* Aspect ratio of 16:9 */
+    padding-top: 56.25%; 
     position: relative;
 }
 
@@ -704,7 +694,6 @@ body {
     object-fit: cover;
 }
 
-/* Project Box (Text & Button) */
 .project-box {
     padding: 20px;
     text-align: center;
@@ -738,27 +727,22 @@ body {
     background-color: #851616;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media screen and (max-width: 768px) {
-    /* Project container to stack items vertically */
     .project-container {
         flex-direction: column;
         align-items: center;
     }
 
-    /* Make each project item take full width */
     .latest-project-item {
         width: 90%;
         margin-bottom: 20px;
     }
 
-    /* Adjust the image container to maintain aspect ratio */
     .project-image-container {
-        padding-top: 56.25%; /* Aspect ratio of 16:9 */
+        padding-top: 56.25%; 
     }
 }
 
-/* Additional Media Query for smaller devices (Mobile Portrait) */
 @media screen and (max-width: 480px) {
     .experience-title {
         font-size: 28px;
@@ -779,7 +763,6 @@ body {
     }
 }
 
-/* Project Box (Text & Button) */
 .project-box {
     padding: 20px;
     text-align: center;
