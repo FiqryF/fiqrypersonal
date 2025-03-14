@@ -1550,7 +1550,6 @@ body {
     background: #871717;
 }
 
-/* Style umum */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -1559,7 +1558,6 @@ body {
     padding: 0;
 }
 
-/* Tombol download */
 .btn-download {
     background-color: red;
     color: white;
@@ -1575,7 +1573,6 @@ body {
     background-color: darkred;
 }
 
-/* Popup */
 .modal {
     display: none;
     position: fixed;
@@ -1590,7 +1587,6 @@ body {
     padding: 10px;
 }
 
-/* Overlay biar background gelap dan nutupin elemen di belakang */
 .modal {
     display: none;
     position: fixed;
@@ -1598,15 +1594,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Transparan gelap */
+    background: rgba(0, 0, 0, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    z-index: 999; /* Pastikan modal ada di atas elemen lain */
+    z-index: 999; 
 }
 
-/* Kontainer popup */
 .modal-container {
     background: white;
     padding: 20px;
@@ -1618,15 +1613,15 @@ body {
     position: relative;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     overflow-y: auto;
-    z-index: 1000; /* Supaya popup tetap di atas overlay */
+    z-index: 1000; 
 }
 
 .modal-container h2 {
-    font-family: 'Lexend', sans-serif;  /* Gunakan font Lexend */
-    font-weight: 700;  /* Bold */
-    font-size: 20px;  /* Ukuran lebih kecil */
-    text-align: center;  /* Tengah */
-    margin-bottom: 10px; /* Jarak bawah biar lebih rapi */
+    font-family: 'Lexend', sans-serif;  
+    font-weight: 700;  
+    font-size: 20px;  
+    text-align: center;  
+    margin-bottom: 10px; 
 }
 
 .close {
