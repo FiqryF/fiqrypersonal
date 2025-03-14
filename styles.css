@@ -881,18 +881,15 @@ body {
     align-items: center;
 }
 
-/* Gambar */
 .project-image-container img {
-    width: 100%; /* Lebarkan gambar */
-    height: auto; /* Biarkan tinggi menyesuaikan */
-    object-fit: cover; /* Pastikan gambar tetap proporsional */
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
 }
 
-
-/* Konten Box */
 .project-box {
     text-align: center;
-    padding: 5px 0; /* Kurangi padding supaya lebih pendek */
+    padding: 5px 0; 
 }
 
 .project-box h3 {
