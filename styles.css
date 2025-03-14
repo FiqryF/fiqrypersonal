@@ -930,28 +930,27 @@ body {
     }
 
     .project-image-container {
-        height: 200px; /* Sesuaikan tinggi gambar agar tetap landscape */
+        height: 200px; 
     }
 
     .project-box h3 {
-        font-size: 16px; /* Kurangi ukuran font agar lebih proporsional */
+        font-size: 16px; 
     }
 
     .project-box p {
-        font-size: 11px; /* Sedikit lebih kecil untuk menghemat ruang */
+        font-size: 11px; 
     }
 
     .button-group {
-        gap: 2px; /* Persempit jarak antar tombol */
+        gap: 2px; 
     }
 
     .button-group a {
-        padding: 5px 8px; /* Sesuaikan ukuran tombol */
+        padding: 5px 8px; 
         font-size: 11px;
     }
 }
 
-/* Animasi saat elemen muncul */
 .latest-project-item {
     opacity: 0;
     transform: translateY(30px);
