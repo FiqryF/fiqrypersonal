@@ -1696,8 +1696,8 @@ body {
 }
 
 .scroll-top-btn:hover {
-    background-color: #8B0000; /* Warna lebih gelap saat hover */
-    transform: scale(1.1); /* Efek membesar */
+    background-color: #8B0000; 
+    transform: scale(1.1); 
 }
 
 .scroll-top-btn i {
@@ -1705,7 +1705,7 @@ body {
 }
 
 .scroll-top-btn:hover i {
-    transform: translateY(-2px); /* Efek naik sedikit saat hover */
+    transform: translateY(-2px); 
 }
 
 @media (max-width: 768px) { 
