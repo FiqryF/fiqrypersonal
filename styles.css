@@ -1113,12 +1113,10 @@ h3 {
     margin-right: 8px;
 }
 
-/* Hover Effect */
 .skill-box:hover, .locked-box:hover {
     transform: scale(1.05);
 }
 
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
