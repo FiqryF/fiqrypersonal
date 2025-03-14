@@ -1707,3 +1707,34 @@ body {
 .scroll-top-btn:hover i {
     transform: translateY(-2px); /* Efek naik sedikit saat hover */
 }
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) { /* Mobile */
+    .scroll-top-btn {
+        bottom: 95px; /* Naik lebih tinggi supaya nggak ketimpa */
+        right: 26px; /* Biar lebih rapi di mobile */
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        bottom: 30px; /* Naik sedikit agar tidak ketimpa */
+        right: 30px;  /* Geser lebih ke kanan */
+    }
+
+    .contact {
+        bottom: -20px; /* Sesuaikan biar rapi */
+        right: 30px;
+    }
+}
+
+/* Saat layar lebih kecil dari 768px (Mobile) */
+@media screen and (max-width: 768px) {
+    .floating-container {
+        bottom: 35px;  /* Naik agar tidak ketimpa elemen lain */
+        right: 20px;   /* Geser lebih dekat ke tepi */
+    }
+}
