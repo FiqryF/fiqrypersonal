@@ -1662,7 +1662,7 @@ body {
 
 .scroll-top-btn {
     position: fixed;
-    bottom: 100px; /* Di atas floating button */
+    bottom: 100px; 
     right: 47px;
     width: 40px;
     height: 40px;
@@ -1680,7 +1680,7 @@ body {
     visibility: hidden;
     transform: translateY(20px);
     transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s;
-    z-index: 1000; /* Pastikan lebih tinggi dari elemen lain */
+    z-index: 1000; 
 }
 
 .scroll-top-btn.show {
