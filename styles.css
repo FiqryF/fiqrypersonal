@@ -1721,20 +1721,19 @@ body {
 
 @media screen and (max-width: 768px) {
     .about {
-        bottom: 30px; /* Naik sedikit agar tidak ketimpa */
-        right: 30px;  /* Geser lebih ke kanan */
+        bottom: 30px; 
+        right: 30px;  
     }
 
     .contact {
-        bottom: -20px; /* Sesuaikan biar rapi */
+        bottom: -20px; 
         right: 30px;
     }
 }
 
-/* Saat layar lebih kecil dari 768px (Mobile) */
 @media screen and (max-width: 768px) {
     .floating-container {
-        bottom: 35px;  /* Naik agar tidak ketimpa elemen lain */
-        right: 20px;   /* Geser lebih dekat ke tepi */
+        bottom: 35px;  
+        right: 20px;   
     }
 }
