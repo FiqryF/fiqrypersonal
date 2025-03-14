@@ -895,7 +895,6 @@ body {
     padding: 5px 0; /* Kurangi padding supaya lebih pendek */
 }
 
-/* Judul & Deskripsi */
 .project-box h3 {
     font-size: 18px;
     margin-bottom: 3px;
@@ -906,15 +905,14 @@ body {
     margin-bottom: 8px;
 }
 
-/* Tombol */
 .button-group {
     display: flex;
     justify-content: center;
-    gap: 3px; /* Lebih dekat */
+    gap: 3px; 
 }
 
 .button-group a {
-    padding: 6px 10px; /* Kurangi padding tombol */
+    padding: 6px 10px;
     font-size: 12px;
     background-color: #A31D1D;
     color: white;
