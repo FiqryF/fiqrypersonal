@@ -1215,29 +1215,25 @@ h1::after, h3::after {
     content: none !important;
 }
 
-/* Locked Skills Box - Pastikan kontennya di tengah */
 .locked-box {
     display: flex;
-    align-items: center;  /* Pusatkan secara vertikal */
-    justify-content: center; /* Pusatkan secara horizontal */
-    text-align: center; /* Pastikan teks di tengah */
-    width: 250px; /* Sesuaikan ukuran */
-    height: 50px; /* Sesuaikan tinggi */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 250px; 
+    height: 50px; 
 }
 
-/* Ikon dan teks dalam locked-box */
 .locked-box img {
-    margin-right: 8px; /* Beri sedikit jarak antara ikon dan teks */
+    margin-right: 8px; 
 }
 
-/* Mengubah font untuk seluruh halaman */
 body {
     font-family: 'Lexend', sans-serif;
 }
 
-/* Memperbesar ukuran teks SKILLS */
 .title {
-    font-size: 42px; /* Sesuaikan ukuran */
+    font-size: 42px; 
     font-weight: bold;
 }
 
@@ -1278,7 +1274,7 @@ body {
     display: flex;
     align-items: center;
     background: white;
-    border: 2px solid rgba(255, 0, 0, 0.5); /* Warna merah lebih lembut */
+    border: 2px solid rgba(255, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 8px;
     width: 250px;
@@ -1308,7 +1304,6 @@ body {
     overflow: hidden;
 }
 
-/* Efek Border Berkilau Abu-Abu */
 .skill-box::before {
     content: "";
     position: absolute;
