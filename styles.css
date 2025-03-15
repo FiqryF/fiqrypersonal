@@ -978,25 +978,6 @@ h3 {
     margin-bottom: 10px;
 }
 
-.skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.skill-box {
-    display: flex;
-    align-items: center;
-    background: white;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 8px;
-    width: 250px;
-    justify-content: space-between;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-}
-
 .skill-box img {
     width: 30px;
     height: 30px;
@@ -1020,31 +1001,6 @@ h3 {
 
 .percentage {
     font-size: 12px;
-}
-
-.locked-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.locked-box {
-    display: flex;
-    align-items: center;
-    background: white;
-    border: 2px solid black;
-    padding: 8px 15px;
-    border-radius: 8px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    cursor: not-allowed;
-    transition: 0.3s;
-}
-
-.locked-box img {
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
 }
 
 .skill-box:hover, .locked-box:hover {
