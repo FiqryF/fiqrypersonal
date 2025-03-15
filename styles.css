@@ -164,7 +164,6 @@ body {
     transform: scale(1);
 }
 
-/* Responsif */
 @media (max-width: 768px) {
     .mindmap-line {
         left: 20px;
@@ -190,9 +189,9 @@ body {
 
 .education-title {
     font-family: 'Lexend', sans-serif;
-    font-size: 2.5rem; /* Ukuran lebih kecil agar lebih proporsional */
+    font-size: 2.5rem; 
     font-weight: bold;
-    color: #A31D1D; /* Warna merah */
+    color: #A31D1D; 
     text-align: center;
     opacity: 0;
     transform: translateY(20px);
@@ -251,7 +250,6 @@ body {
     color: white;
 }
 
-/* Header Sticky */
 header {
     position: fixed;
     top: 0;
