@@ -521,11 +521,12 @@ body {
     color: #A31D1D; 
 }
 
-.experience-title {
-    font-size: 24px;
+.experienceor-title {
+    font-size: 34px !important; 
     font-weight: bold;
     margin-bottom: 30px; 
     text-align: center; 
+    color: #A31D1D; 
 }
 
 .project-container {
