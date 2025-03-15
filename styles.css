@@ -121,7 +121,6 @@ body {
     max-width: 340px;
 }
 
-/* Kiri */
 .left {
     left: 0;
     text-align: center;
@@ -133,7 +132,6 @@ body {
     margin-right: 30px;
 }
 
-/* Kanan */
 .right {
     left: 50%;
     text-align: center;
@@ -145,13 +143,11 @@ body {
     margin-left: 30px;
 }
 
-/* Efek Animasi */
 .fade.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Animasi Teks */
 .mindmap-box h3, .mindmap-box p {
     opacity: 0;
     transform: scale(0.9);
