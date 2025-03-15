@@ -333,7 +333,6 @@ body {
     box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
   }
   
-  /* Image Styling */
   .image-container {
     width: 100%;
     max-width: 320px;
@@ -353,7 +352,6 @@ body {
     border-radius: 16px;
   }
   
-  /* Visit Button */
   .visit-button {
     background: #b91c1c;
     color: white;
@@ -369,7 +367,6 @@ body {
     background: #7f1d1d;
   }
   
-  /* Organizational Experience Grid */
   .org-grid {
     display: grid;
     grid-template-columns: 1fr;
