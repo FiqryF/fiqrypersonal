@@ -1550,14 +1550,14 @@ body {
     }
 }
 
-.spotify-floating-btn {
+ /* Styling Floating Button */
+ .spotify-floating-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 60px;
     height: 60px;
     background-color: #1DB954; /* Warna hijau khas Spotify */
-    color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1574,9 +1574,8 @@ body {
     transform: scale(1.1);
 }
 
-/* Styling SVG */
-.spotify-floating-btn svg {
-    width: 30px;
-    height: 30px;
-    fill: white;
+/* Styling Gambar */
+.spotify-icon {
+    width: 35px;
+    height: 35px;
 }
