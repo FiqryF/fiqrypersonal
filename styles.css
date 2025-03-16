@@ -1603,7 +1603,7 @@ body {
     }
 }
 
-/* From Uiverse.io by Nawsome */ 
+/* Mobile only*/ 
 .wheel-and-hamster {
     --dur: 1s;
     position: relative;
@@ -1876,3 +1876,10 @@ body {
       transform: rotate(-1turn);
     }
   }
+  @media (min-width: 768px) {
+    .wheel-and-hamster {
+      display: none;
+    }
+  }
+  /* Mobile only*/ 
+  
