@@ -1566,6 +1566,14 @@ body {
     text-decoration: none;
     transition: background-color 0.3s, transform 0.2s;
     z-index: 1000; /* Supaya tetap di atas */
+    animation: floatAnimation 2s infinite ease-in-out;
+}
+
+ /* Animasi Floating */
+ @keyframes floatAnimation {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } /* Naik sedikit */
+    100% { transform: translateY(0px); }
 }
 
 /* Efek Hover */
